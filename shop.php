@@ -16,7 +16,7 @@
       <?php require_once("sidebar.php") ?>
       <div class="home-content">
         <div class="image">
-          <img src="img/zte.jpg" alt="">
+          <img src="img/zte.png" alt="">
         </div>
         <div class="description">
           <h2>ZTE BLADE</h2>
@@ -27,6 +27,8 @@
             <li>ANDROID 5.0</li>
             <li>QUAD CORE 1.3 GHZ</li>
           </ul>
+        </div>
+        <div class="kim">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -36,9 +38,10 @@
            deserunt mollit anim id est laborum.
            <br>
            <p>3 Available</p>
-           <button type="button" name="buy"><strong>BUY</strong></button>
+           <button type="button" name="buy">BUY</button>
         </div>
         <footer class="footer">
+          <hr>
           Developed by <strong>Juan Pablo Donayre</strong>
         </footer>
       </div>

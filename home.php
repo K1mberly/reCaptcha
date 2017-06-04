@@ -17,6 +17,7 @@
       <div class="home-content">
         <h3>home</h3>
         <footer class="footer">
+          <hr>
           Developed by <strong>Juan Pablo Donayre</strong>
         </footer>
       </div>
