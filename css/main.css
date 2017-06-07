@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 hr{
   width: 100%;
@@ -10,22 +11,60 @@ hr{
 }
 .home-content{
   padding: 30px;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 /*SHOP*/
-.image{
-  position: relative;
-  padding-right: 15px;
-  padding-left: 180px;
-  margin-top: 50px;
-  float: left;
-  width: 50%;
+@media only screen and (min-width: 768px) {
+  body{
+    font-size: 12px !important;
+  }
+  img{
+    padding-left: 30px !important;
+    height: 250px !important;
+    width: 300px !important;
+  }
+  .description{
+    padding: 20px !important;
+    margin-right: 90px !important;
+    border-style: solid !important;
+    border-color: #85888c !important;
+  }
+ }
+ @media only screen and (min-width: 1200px) {
+   body{
+     font-size: 16px !important;
+   }
+   img{
+     padding-left: 50px !important;
+     height: 400px !important;
+     width: 500px !important;
+   }
+   .description{
+     vertical-align: middle;
+     padding: 20px !important;
+     margin-right: 50px !important;
+     border-style: solid !important;
+     border-color: #85888c !important;
+   }
+  }
+#columns{
+  column-count: 2;
+  text-align: justify;
+  padding-top: 10px;
 }
-.image img{
+img{
+  padding-left: 20px;
   vertical-align: middle;
+  height: 400px;
+  width: 500px;
 }
 .description{
-  margin-top: 40px;
+  padding: 20px;
+  margin-right: 200px;
+  border-style: solid;
+  border-color: #85888c;
+}
+.txt{
   text-align: justify;
 }
 ul {
@@ -54,7 +93,7 @@ ul.navbar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #A7AAAF;
     position: fixed;
     width: 100%;
 }
@@ -64,7 +103,7 @@ li.content {
 }
 li.content a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,7 +112,7 @@ li.content a{
   width: 120px;
 }
 li.content a:hover, .dropdown:hover .dropbtn, .toggle-sidebar:hover{
-    background-color: #323232;
+    background-color: #cacccf;
 }
 li.dropdown {
     float: right;
@@ -84,23 +123,23 @@ li.dropdown {
     width: 206px;
     display: none;
     float: right;
-    background-color: #000000;
+    background-color: #A7AAAF;
     min-width: 177px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .dropdown-content a {
-    color: white;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 .dropdown-content a:hover {
-  background-color: #666666;
+  background-color: #dbdddf;
 }
 .navbar .toggle-sidebar {
-    color: #fff;
+    color: #000000;
     line-height: 36px;
     float: left;
     margin-left: 0px;
@@ -122,7 +161,7 @@ li.dropdown {
   margin-left: -200px;
   left: 200px;
   width: 200px;
-  background: #000000;
+  background: #A7AAAF;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -146,7 +185,7 @@ li.dropdown {
   text-indent: 20px;
 }
 .sidebar-nav li a {
-  color: #ffffff !important;
+  color: #000000 !important;
   display: block !important;
   text-decoration: none !important;
   padding-left: 30px !important;
@@ -154,15 +193,13 @@ li.dropdown {
 .sidebar-nav li a span:before {
   position: absolute;
   left: 0;
-  color: #41484c;
   text-align: center;
   width: 20px;
   line-height: 18px;
 }
 .sidebar-nav li a:hover,
 .sidebar-nav li.active {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
+  background-color: #dbdddf;
   text-decoration: none;
 }
 .sidebar-nav li a:active,

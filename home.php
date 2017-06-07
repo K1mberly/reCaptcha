@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="FontAwesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/template.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon-sign-in.ico">
   </head>
   <body>
     <?php require_once("navigation.php") ?>

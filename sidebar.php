@@ -4,10 +4,10 @@
             <nav id="spy">
                 <ul class="sidebar-nav nav">
                     <li>
-                        <a href="home.php"><i class="fa fa-home"></i><span> Home</span></a>
+                        <a href="home.php"><i class="fa fa-home"></i><span>&nbspHome</span></a>
                     </li>
                     <li>
-                        <a href="shop.php"><i class="fa fa-shopping-cart"></i><span> Shop</span></a>
+                        <a href="shop.php"><i class="fa fa-shopping-cart"></i><span>&nbspShop</span></a>
                     </li>
                 </ul>
             </nav>
